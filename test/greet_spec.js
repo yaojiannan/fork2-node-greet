@@ -9,6 +9,7 @@ describe('greet', function () {
 
 describe('greet', function () {
 	it ("should greet a person flirtatiously if drunk", function(){
-		expect(greet("Yao","drunk")).to.eql("hello, Yao, you look sexy today");
+		expect(greet("Yao","--drunk")).to.eql("hello, Yao, you look sexy today");
 	});
 });
+ 
